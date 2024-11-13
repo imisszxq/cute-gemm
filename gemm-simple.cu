@@ -48,7 +48,7 @@ __global__ void gemm_simple(T *Cptr, const T *Aptr, const T *Bptr, int m, int n,
 
   cute::copy(tCrC, tCgC); 
 }
-
+//test
 int main() {
   srand(10086);
 
